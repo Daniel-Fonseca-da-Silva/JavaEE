@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formulário de Cadastro Online</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Formulário de Cadastro</h1>
+        <form name="form1" action="ServletEnviar" method="post">
+            <br/><br/><br/>
+            <label>Nome:</label>
+            <br/>
+            <input type="text" name="name" />
+            <br/><br/>
+            <label>Sobrenome:</label>
+            <br/>
+            <input type="text" name="surname" />
+            <br/><br/>
+            <label>Apelido:</label>
+            <br/>
+            <input type="text" name="nick" />
+            <br/><br/>
+            <label>E-mail:</label>
+            <br/>
+            <input type="email" name="mail" />
+            <br/><br/>
+            <label>Senha:</label>
+            <br/>
+            <input type="password" name="senha" />
+            <br/><br/>
+            <label>Nascimento:</label>
+            <br/>
+            <input type="date" name="nasc" />
+            <br/><br/>
+            <label>Celular:</label>
+            <br/>
+            <input type="tel" name="cel" />
+            <br/><br/>
+            <input type="radio" name="gene"/>
+            <label>Masculino:</label>
+            <input type="radio" name="gene"/>
+            <label>Feminino</label>
+            <br/><br/>
+            <input type="submit" value="Finalizar" />
+        </form>
+        <br/>
+        <p>Cheque sua caixa de E-mail depois de clicar em finalizar</p>
+    </body>
+</html>
